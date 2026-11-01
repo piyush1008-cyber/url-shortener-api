@@ -1,11 +1,12 @@
 # ⚡ High-Performance URL Shortener & Analytics API
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0+-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Pytest](https://img.shields.io/badge/Tests-8%20Passing-brightgreen?style=for-the-badge&logo=pytest&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![CI](https://github.com/piyush1008-cyber/url-shortener-api/actions/workflows/ci.yml/badge.svg)](https://github.com/piyush1008-cyber/url-shortener-api/actions)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=flat&logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0+-D71F00?style=flat&logo=sqlalchemy&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=flat&logo=docker&logoColor=white)
+![Pytest](https://img.shields.io/badge/Tests-8%20Passing-brightgreen?style=flat&logo=pytest&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
 > **A scalable, enterprise-grade URL shortening and click-telemetry microservice engineered with FastAPI, SQLAlchemy ORM, and asynchronous background task processing.**
 
