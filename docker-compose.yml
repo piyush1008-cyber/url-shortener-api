@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: url_shortener_service
+    ports:
+      - "8000:8000"
+    environment:
+      - PROJECT_NAME=URL Shortener & Analytics API
+      - DATABASE_URL=sqlite:///./urls.db
+      - BASE_URL=http://localhost:8000
+    volumes:
+      - ./urls.db:/app/urls.db
+    restart: unless-stopped
